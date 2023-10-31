@@ -1,14 +1,25 @@
-
+// First example
 const onMyBirthday = (isKayloSick) => { //Kaylo promises that in my birthday she make a cake
 
     return new Promise((resolve, reject) => {
         setTimeout(()=> {
-            if(!isKayloSick){ //If Kaylo didnt get sick, we will have a certain number of cake
+            if(!isKayloSick){
+                console.log('there are 2 cakes') //If Kaylo didnt get sick, we will have a certain number of cake
                 resolve(2);
             }
             else{
                 reject(new Error("i am sad"))
             }
         }, 2000);
+    })
+}
+
+
+function sumAsync(){
+    return new Promise((resolve,reject) => {
+        setTimeout(() => {
+            console.log('will done after 1s');
+            resolve(x+y);
+        },1000);
     })
 }
