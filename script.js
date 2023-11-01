@@ -14,7 +14,7 @@ const onMyBirthday = (isKayloSick) => { //Kaylo promises that in my birthday she
     })
 }
 
-
+//With resolve
 function sumAsync(x,y){
     return new Promise((resolve,reject) => {
         setTimeout(() => {
@@ -25,3 +25,4 @@ function sumAsync(x,y){
 }
 
 console.log(sumAsync(10,5))
+
