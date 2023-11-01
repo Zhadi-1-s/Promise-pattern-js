@@ -24,5 +24,12 @@ function sumAsync(x,y){
     })
 }
 
-console.log(sumAsync(10,5))
+sumAsync(10,5).then(
+    result => {
+        console.log('result is ',result)
+    },
+    error => {
+        console.log(error)
+    }
+)
 

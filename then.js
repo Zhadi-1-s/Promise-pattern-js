@@ -1,14 +1,18 @@
-console.log('hello world')
+//In this file we practise method then()
 
 const myPromise = new Promise((resolve, reject)=> {
     setTimeout(() => {
-        resolve('You are in promise')
-        console.log('You are in Promise')
+        resolve('The promise worked succesfully')
     },1000)
 })
 
-console.log('After Promise')
+console.log('After Promise, Promise is not done yet')
 
 myPromise.then(
-    console.log('promise well done')
+    result => {
+        console.log('result :', result)
+    },
+    error => {
+        alert(error);
+    }
 )
