@@ -1,0 +1,12 @@
+{
+  "name": "promise-pattern",
+  "version": "1.0.0",
+  "description": "# Asynchronous programming In the simple words, when you execute the task asynchronously, the program moves to the next line of code before the task finishes. think of synchronous programming be like waiting in line, and asynchronous programming like taking ticket. When you take a ticket you can do other things and then be notified when ready. Promises are a far cleaner solution to writing asynchronous code.",
+  "main": "async.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"json-server --watch server/db.json"
+  },
+  "author": "Zhadiger",
+  "license": "ISC"
+}

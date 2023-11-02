@@ -25,4 +25,11 @@ async function main(){
     return 'end of function main'
 }
 
-console.log(main())
+main().then(
+    result => {
+        console.log(result)
+    },
+    error => {
+        console.log(error)
+    }
+)
