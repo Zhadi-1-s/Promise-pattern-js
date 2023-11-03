@@ -19,3 +19,7 @@ For example if we have two promises: The waiter promises us to bring dish, and w
 
 # Async/Await
 Async and await makes the code more readable and understandable
+In short, this is asynchronous function that returns Promise.
+
+# Conclusion
+Synchronous code is used when it is necessary to ensure that the code is executed in a strictly specified order. Asynchronous – in cases where the code may take a long time before finishing its execution, and at the same time its execution should not block the execution of other code.
