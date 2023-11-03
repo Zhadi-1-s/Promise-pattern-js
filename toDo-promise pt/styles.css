@@ -1,0 +1,21 @@
+input{
+    width: 250px;
+    height: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #252525;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    border: none;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+}

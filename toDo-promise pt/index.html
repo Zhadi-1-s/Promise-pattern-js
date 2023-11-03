@@ -3,12 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Studio Ghibli</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Studio Ghibli Characters</h1>
-  <div id="main">
-    
-  </div>
-  <script src="code.js"></script>
+    <h1>Create and delte and edit users</h1>
+    <div>
+        <input type="text" placeholder="id">
+        <input type="text" placeholder="Username">
+        <button style="cursor: pointer;"><span>Add</span></button>
+    </div>
+    <div  class="users">
+            {{data.name}}
+    </div>
+    <script src="code.js"></script>
 </body>
 </html>
