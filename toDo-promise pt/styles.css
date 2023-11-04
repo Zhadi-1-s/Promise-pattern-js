@@ -17,5 +17,6 @@ button{
 }
 .users{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    border: solid 2px;
 }
